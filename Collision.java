@@ -3,7 +3,6 @@ package com.pact45.escapeart.openGL.collision;
 
 public class Collision {
     private Octree octree;
-    private OBB obb;
 
     private boolean hasCollisionIndicator = false;
     private Vector spotCollision;

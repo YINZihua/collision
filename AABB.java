@@ -26,15 +26,7 @@ public class AABB {
         if(!this.includes(aabbBox.getMaxPoint())) included = false;
         return included;
     }
-//    public boolean includes(OBB obbBox){
-//        boolean included = true;
-//        for(Vector sommet: obbBox.getSommets()){
-//            if(!this.includes(sommet)){
-//                included = false;
-//            }
-//        }
-//        return included;
-//    }
+    
     public boolean includes(Figure3D figure){
         return includes(figure.getAabbBox());
     }
